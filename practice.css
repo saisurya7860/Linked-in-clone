@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    font-size:16px;
+    --primary-color:#fff;
+    --secondary-color:#f4f2ee;
+}
+body{
+    margin: 0;
+    padding:0;  
+    background-color: var(--secondary-color);
+}
+
+header{
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    align-items: center;
+    background-color:var(--primary-color) ;
+    border-bottom: 0.0625rem solid black;
+}
+#left-sec{
+    display: flex;
+    align-items: center;
+    width:13.5%;
+    justify-content: flex-end;
+    
+}
+.logo{
+    width:2.3rem;
+    padding:0.4rem;
+}
+#mid-sec{
+    display: flex;
+    width:60%;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 0.0625rem solid black;
+}
+.input-div{
+    display: flex;
+    width:35%;
+}
+.search-bar{
+    line-height:1.7rem;
+    border:none;
+    background: url(linkedin-icon/search.png) no-repeat;
+    background-size:1.3rem;
+    background-position:8% 50%;
+    flex:1;
+    padding-left:3rem;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    font-size:0.78rem;
+    width:55%;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-shrink: 0;
+}
+.nav-icon{
+    width:25px;
+}
+#nav-pro{
+    border-radius: 50%;
+}

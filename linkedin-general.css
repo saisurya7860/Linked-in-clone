@@ -1,0 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    padding-bottom:1000px;
+    background-color: #f4f2ee;
+    font-family:roboto,arial;
+}
